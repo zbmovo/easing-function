@@ -1,0 +1,32 @@
+{
+  "name": "easing-function",
+  "version": "1.0.0",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.js",
+  "browser": "dist/umd/index.min.js",
+  "exports": {
+    "import": "./dist/es/index.js",
+    "require": "./dist/lib/index.js"
+  },
+  "types": "types/index.d.ts",
+  "files": [
+    "dist/",
+    "types/"
+  ],
+  "scripts": {
+    "build": "rollup -c & tsc"
+  },
+  "repository": "git@github.com:zbmovo/easing-function.git",
+  "author": "zbmovo <zbmovo@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.3",
+    "@babel/preset-typescript": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.11.30",
+    "rollup": "^4.13.0",
+    "typescript": "^5.4.3"
+  }
+}
