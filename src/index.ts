@@ -1,1 +1,3 @@
-console.log('init');
+export * from './functions'
+export * from './cubic-bezier'
+
