@@ -14,8 +14,12 @@
     "types/"
   ],
   "scripts": {
-    "build": "rollup -c & tsc"
+    "build": "rollup -c & tsc",
+    "dev": "vite",
+    "build:examples": "tsc && vite build",
+    "preview": "vite preview"
   },
+  "type": "module",
   "repository": "git@github.com:zbmovo/easing-function.git",
   "author": "zbmovo <zbmovo@foxmail.com>",
   "license": "MIT",
@@ -27,6 +31,7 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@types/node": "^20.11.30",
     "rollup": "^4.13.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "vite": "^5.2.11"
   }
 }

@@ -1,0 +1,21 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+canvas {
+  background-color: #efefef;
+}
+
+select,
+input,
+button {
+  height: 24px;
+  padding-inline: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding-inline: 10px;
+}

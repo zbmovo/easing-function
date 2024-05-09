@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="../dist/umd/index.min.js"></script>
-  <style>
-    div {
-      width: 100px;
-      height: 100px;
-      background-color: red;
-    }
-  </style>
-</head>
-
-<body>
-  <div></div>
-  <p>cubicBezier 需要在下方输入参数 cubic-bezier(p1x,p1y,p2x,p2y)</p>
-  <select></select>
-  <input type="text" placeholder="p1x,p1y,p2x,p2y" value=".25,.1,.25,1">
-  <button>start</button>
-  <script src="./index.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easing function examples</title>
+  </head>
+  <body>
+    <div></div>
+    <canvas></canvas>
+    <p>cubicBezier 需要在下方输入参数 cubic-bezier(p1x,p1y,p2x,p2y)</p>
+    <select></select>
+    <input type="text" placeholder="p1x,p1y,p2x,p2y" value=".25,.1,.25,1" />
+    <button>start</button>
+    <script type="module" src="src/index.ts"></script>
+  </body>
 </html>
